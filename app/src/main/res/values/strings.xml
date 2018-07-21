@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tansen</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="home_screen">Tansen</string>
+    <string name="SONGS">SONGS</string>
+    <string name="ARTISTS">ARTISTS</string>
+    <string name="ALBUMS">ALBUMS</string>
+    <string name="Now_Playing">Now Playing</string>
+    <string name="text_view_play">Playing Song</string>
+    <string name="prev">PREV</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="next">NEXT</string>
+</resources>

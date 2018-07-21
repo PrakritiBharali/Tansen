@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/CategoryStyle"
+        android:background="@color/colorAccent"
+        android:layout_margin="@dimen/_16_dp"
+        android:text="@string/songs"
+        android:textSize="@dimen/home_text_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="@dimen/_16_dp"
+        android:layout_marginBottom="@dimen/_16_dp"
+        android:layout_marginRight="@dimen/_16_dp"
+        android:text="@string/artists"
+        android:textSize="@dimen/home_text_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/_16_dp"
+        android:layout_marginBottom="@dimen/_16_dp"
+        android:layout_marginRight="@dimen/_16_dp"
+        android:text="@string/albums"
+        android:textSize="@dimen/home_text_size"
+        android:textAlignment="center"/>
+
+</LinearLayout>

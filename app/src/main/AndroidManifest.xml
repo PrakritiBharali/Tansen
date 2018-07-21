@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tansen">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/logo_mdpi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/home_screen"/>
+        <activity
+            android:name=".SongsActivity"
+            android:parentActivityName=".HomeActivity"
+            android:label="@string/SONGS"/>
+        <activity
+            android:name=".ArtistsActivity"
+            android:parentActivityName=".HomeActivity"
+            android:label="@string/ARTISTS"/>
+        <activity
+            android:name=".AlbumsActivity"
+            android:parentActivityName=".HomeActivity"
+            android:label="@string/ALBUMS"/>
+        <activity
+            android:name=".PlayerActivity"
+            android:parentActivityName=".SongsActivity"
+            android:label="@string/Now_Playing"/>
+    </application>
+
+</manifest>
